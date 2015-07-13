@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="httpclient-4.3.6">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/medicalServices/libs/httpclient-4.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/medicalServices/lib/httpclient-4.3.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,7 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.net.URL;
-import java.util.ArrayList;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -18,7 +16,9 @@ import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-import chat.demo.app.R;
+
+import java.net.URL;
+import java.util.ArrayList;
 
 public class AddGroup extends Fragment implements OnClickListener {
 

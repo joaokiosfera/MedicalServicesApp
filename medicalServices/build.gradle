@@ -12,24 +12,33 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE.txt'
+            exclude 'META-INF/NOTICE.txt'
+        }
+
 }
 
 dependencies {
     compile project(':lib')
-
-    compile 'com.android.support:support-v4:22.2.0'
     compile 'com.google.android.gms:play-services:7.5.0'
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.android.support:recyclerview-v7:22.2.0'
     compile 'com.android.support:cardview-v7:22.2.0'
     compile 'com.jpardogo.materialtabstrip:library:1.1.0'
-    compile files('libs/httpclient-4.3.6.jar')
-    compile files('libs/httpcore-4.3.3.jar')
-    compile files('libs/httpmime-4.3.6.jar')
-    compile files('libs/Shutterbug-1.0.0.jar')
-    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('lib/httpclient-4.3.6.jar')
+    compile files('lib/httpcore-4.3.3.jar')
+    compile files('lib/httpmime-4.3.6.jar')
+    compile files('lib/Shutterbug-1.0.0.jar')
+    compile files('lib/universal-image-loader-1.9.3.jar')
 }

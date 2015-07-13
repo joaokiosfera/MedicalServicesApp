@@ -1,11 +1,5 @@
 package br.com.medicalservices.app;
 
-import github.ankushsachdeva.emojicon.EmojiconTextView;
-
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -22,12 +16,18 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import br.com.medicalservices.app.utils.ImageUtil;
-import br.com.medicalservices.app.views.RoundedImageView;
-import chat.demo.app.R;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import br.com.medicalservices.app.utils.ImageUtil;
+import br.com.medicalservices.app.views.RoundedImageView;
+import github.ankushsachdeva.emojicon.EmojiconTextView;
 
 public class MyMessageActivity extends Fragment {
 

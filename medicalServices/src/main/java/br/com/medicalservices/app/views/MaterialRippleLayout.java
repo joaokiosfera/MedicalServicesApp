@@ -16,7 +16,6 @@
 
 package br.com.medicalservices.app.views;
 
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
@@ -47,7 +46,11 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
-import chat.demo.app.R;
+
+
+import br.com.medicalservices.app.R;
+
+import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
 
 @SuppressLint("ClickableViewAccessibility")

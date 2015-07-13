@@ -1,7 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.io.File;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,15 +11,15 @@ import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
-
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
-import chat.demo.app.R;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+
+import java.io.File;
 
 public class SettingsActivity extends PreferenceActivity implements ConnectionCallbacks,
 OnConnectionFailedListener{

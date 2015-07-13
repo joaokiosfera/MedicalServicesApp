@@ -1,7 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -10,7 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import chat.demo.app.R;
+
+import java.util.ArrayList;
 
 public class LoadAllUsersAdapter extends BaseAdapter {
 	private Context mContext;

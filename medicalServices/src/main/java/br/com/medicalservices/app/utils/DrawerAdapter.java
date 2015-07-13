@@ -1,7 +1,5 @@
 package br.com.medicalservices.app.utils;
 
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -10,7 +8,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import chat.demo.app.R;
+import java.util.List;
+
+import br.com.medicalservices.app.R;
+
 
 public class DrawerAdapter extends BaseAdapter {
 	

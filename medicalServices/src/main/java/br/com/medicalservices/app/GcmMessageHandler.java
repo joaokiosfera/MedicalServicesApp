@@ -1,9 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-
 import android.app.IntentService;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -19,9 +15,12 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.util.Log;
 import android.view.LayoutInflater;
-import chat.demo.app.R;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
 
 public class GcmMessageHandler extends IntentService {
 

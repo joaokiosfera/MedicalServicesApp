@@ -10,13 +10,13 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import br.com.medicalservices.app.utils.ImageUtil;
-import br.com.medicalservices.app.views.RoundedImageView;
-import chat.demo.app.R;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+
+import br.com.medicalservices.app.utils.ImageUtil;
+import br.com.medicalservices.app.views.RoundedImageView;
 
 public class MainActivity extends AppCompatActivity  {
 

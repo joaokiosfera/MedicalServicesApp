@@ -1,9 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,9 +10,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import br.com.medicalservices.app.utils.ImageUtil;
 import br.com.medicalservices.app.views.RoundedImageView;
-import chat.demo.app.R;
 
 
 public class UserProfile extends AppCompatActivity {

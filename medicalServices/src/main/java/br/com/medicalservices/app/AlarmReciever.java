@@ -1,8 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.util.GregorianCalendar;
-import java.util.Locale;
-
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -13,6 +10,9 @@ import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import java.util.GregorianCalendar;
+import java.util.Locale;
 
 public class AlarmReciever extends BroadcastReceiver
 

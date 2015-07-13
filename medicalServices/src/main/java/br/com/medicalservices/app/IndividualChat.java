@@ -1,31 +1,5 @@
 package br.com.medicalservices.app;
 
-import github.ankushsachdeva.emojicon.EmojiconEditText;
-import github.ankushsachdeva.emojicon.EmojiconGridView.OnEmojiconClickedListener;
-import github.ankushsachdeva.emojicon.EmojiconTextView;
-import github.ankushsachdeva.emojicon.EmojiconsPopup;
-import github.ankushsachdeva.emojicon.EmojiconsPopup.OnEmojiconBackspaceClickedListener;
-import github.ankushsachdeva.emojicon.EmojiconsPopup.OnSoftKeyboardOpenCloseListener;
-import github.ankushsachdeva.emojicon.emoji.Emojicon;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.NotificationManager;
@@ -39,14 +13,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.ClipboardManager;
@@ -72,15 +44,40 @@ import android.widget.ImageView;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.ListView;
 import android.widget.PopupWindow.OnDismissListener;
-import br.com.medicalservices.app.utils.AndroidMultiPartEntity;
-import br.com.medicalservices.app.utils.ImageUtil;
-import br.com.medicalservices.app.utils.AndroidMultiPartEntity.ProgressListener;
-import br.com.medicalservices.app.views.RoundedImageView;
-import chat.demo.app.R;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.applidium.shutterbug.FetchableImageView;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+
+import br.com.medicalservices.app.utils.AndroidMultiPartEntity;
+import br.com.medicalservices.app.utils.AndroidMultiPartEntity.ProgressListener;
+import br.com.medicalservices.app.utils.ImageUtil;
+import br.com.medicalservices.app.views.RoundedImageView;
+import github.ankushsachdeva.emojicon.EmojiconEditText;
+import github.ankushsachdeva.emojicon.EmojiconGridView.OnEmojiconClickedListener;
+import github.ankushsachdeva.emojicon.EmojiconTextView;
+import github.ankushsachdeva.emojicon.EmojiconsPopup;
+import github.ankushsachdeva.emojicon.EmojiconsPopup.OnEmojiconBackspaceClickedListener;
+import github.ankushsachdeva.emojicon.EmojiconsPopup.OnSoftKeyboardOpenCloseListener;
+import github.ankushsachdeva.emojicon.emoji.Emojicon;
 
 public class IndividualChat extends AppCompatActivity {
 

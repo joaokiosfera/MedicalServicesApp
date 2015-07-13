@@ -1,7 +1,5 @@
 package br.com.medicalservices.app;
 
-import java.util.ArrayList;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -16,14 +14,16 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import br.com.medicalservices.app.utils.ImageUtil;
-import br.com.medicalservices.app.views.RoundedImageView;
-import chat.demo.app.R;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+
+import br.com.medicalservices.app.utils.ImageUtil;
+import br.com.medicalservices.app.views.RoundedImageView;
 
 
 public class BlockedUsers extends Fragment {
