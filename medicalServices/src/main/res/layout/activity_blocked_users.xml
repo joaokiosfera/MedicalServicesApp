@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PeerMessagesLL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".PeerAllMessageActivity" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center|left"
+        android:background="@color/headercolor" >
+
+                
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:padding="5sp"
+            android:text="Chat app"
+            android:textSize="25dp"
+            android:textColor="@color/Black" />
+
+       
+    </LinearLayout>
+    
+    
+    <ListView
+        android:id="@+id/peerMsgList"
+        android:layout_width="match_parent"
+        android:divider="@color/headercolor"
+        android:dividerHeight="1dp"
+        android:layout_height="0dp" 
+        android:layout_weight="1"/>
+        
+</LinearLayout>
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/material_teal_100"
+    android:orientation="vertical" >
+
+    
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/bottom_write_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ad"
+		android:background="@color/transparent"
+        android:maxHeight="100dp" >
+        
+          <LinearLayout
+        android:id="@+id/bottom_write_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_above="@id/ad"
+              android:background="@drawable/input"
+        android:maxHeight="100dp" >
+        
+
+        <ImageView
+            android:id="@+id/btnsmiley"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_margin="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/smiley"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp" />
+
+        <Button
+            android:id="@+id/btnfile"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_margin="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/attachment"
+            android:paddingBottom="10sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp" />
+
+        <github.ankushsachdeva.emojicon.EmojiconEditText
+            android:id="@+id/etmessage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+ 
+            android:hint="Write here"
+            android:maxHeight="100dp"
+            android:minHeight="25dp"
+            android:padding="5sp"
+            android:textColor="@color/Black"
+            emojicon:emojiconSize="28sp" />
+        
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnsend"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/roundbtn"
+            android:paddingBottom="5sp"
+            android:paddingLeft="4sp"
+            android:paddingRight="4sp"
+            android:paddingTop="5sp"
+            android:src="@drawable/ic_action_send_now"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_write_bar"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:listSelector="#00000000" />
+
+    <TextView
+        android:id="@+id/txtalert"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_write_bar"
+        android:layout_below="@+id/include1"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/main_empty_list"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+    </LinearLayout>
+
+</RelativeLayout>

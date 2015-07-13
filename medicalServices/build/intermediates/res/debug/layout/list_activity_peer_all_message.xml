@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PeerMessagesLL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".PeerAllMessageActivity" >
+
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/White"
+        android:padding="5dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/linearLayout">
+
+
+        <EditText
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etsearch"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:hint="Find by Name, City, Country"
+            android:background="@drawable/textfield"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnsearch"
+            android:background="@android:drawable/ic_menu_search"
+             />
+    </LinearLayout>
+    
+    
+    <ListView
+        android:id="@+id/peerMsgList"
+        android:layout_width="match_parent"
+        android:divider="@color/headercolor"
+        android:dividerHeight="1dp"
+        android:layout_height="0dp" 
+        android:layout_weight="1"/>
+</LinearLayout>
+
+<!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/list_activity_peer_all_message.xml -->

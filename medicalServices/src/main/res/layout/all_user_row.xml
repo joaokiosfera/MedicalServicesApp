@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardElevation="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <br.com.medicalservices.app.views.RoundedImageView
+            android:id="@+id/img_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/personicon" />
+
+        <TextView
+            android:id="@+id/list_am_name_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_am_name_top"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_picture"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_picture"
+            android:layout_toRightOf="@+id/img_picture"
+            android:ellipsize="end" >
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView
+                android:id="@+id/list_am_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_picture"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/img_picture"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="I have a question."
+                android:textColor="#A9A9A9"
+                emojicon:emojiconSize="28sp" />
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView
+                android:id="@+id/seencount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_picture"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/img_picture"
+                android:layout_weight="0.1"
+                android:background="@color/headercolor"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:text="2"
+                android:textColor="@color/White"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_am_name_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/list_am_name_bottom"
+            android:layout_alignParentTop="true"
+            android:text="meee"
+            android:textColor="#696969"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnaddfriend"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/list_am_name_top"
+            android:background="@drawable/addfriend"
+            android:textColor="@color/White"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

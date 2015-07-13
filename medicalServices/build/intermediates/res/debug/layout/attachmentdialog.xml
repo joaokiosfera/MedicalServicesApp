@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_margin="1dp"
+    android:background="@color/headercolor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+         
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtnewphoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@color/White"
+            android:gravity="center"
+            android:text="New Photo"
+            android:drawableTop="@drawable/photo"
+            android:textColor="@color/material_blue_800"
+            android:textSize="20sp"
+            android:paddingBottom="2dp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+        
+         <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/txtexistphoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@color/White"
+            android:gravity="center"
+            android:text="Existing Photo"
+            android:drawableTop="@drawable/gallery"
+           android:textColor="@color/material_blue_800"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+         
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:orientation="horizontal" >
+    
+
+    <TextView
+        android:id="@+id/txtnewVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="New Video"
+        android:drawableTop="@drawable/video"
+       android:textColor="@color/material_blue_800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    </LinearLayout>
+    
+           <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/txtnewAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="New Audio"
+        android:drawableTop="@drawable/microphone"
+       android:textColor="@color/material_blue_800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtcancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/attachmentdialog.xml -->

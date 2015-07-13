@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.90"
+                android:background="@color/white"
+                android:gravity="center|top"
+                android:orientation="vertical" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/fbpic"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="10dp" />
+
+                <com.applidium.shutterbug.FetchableImageView
+                    android:id="@+id/img_picture"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/personicon"
+                    android:visibility="gone" />
+ 				
+ 				<TextView
+                    android:id="@+id/txtstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Utpal"
+                    android:textColor="@color/Black"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/headercolor"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Utpal"
+                    android:textColor="@color/White"
+                    android:textSize="20dp" />
+                
+                 <TextView
+                    android:id="@+id/txtgender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/headercolor"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Male"
+                    android:textColor="@color/White"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txtlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/headercolor"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Surat, India"
+                    android:textColor="@color/White"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txtmessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/headercolor"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Message me"
+                    android:textColor="@color/White"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+  <LinearLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ 		android:layout_alignParentBottom="true"
+        android:gravity="center" >
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/activity_profile_new.xml -->

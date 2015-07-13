@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:id="@+id/layout_login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout"
+        android:layout_margin="@dimen/dim_50"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:background="@color/offwhite">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:ems="10"
+            android:textSize="@dimen/tex_size_xlarge"
+            android:id="@+id/etemail"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:drawableRight="@drawable/ico_mail"
+            android:background="@color/offwhite"
+            android:paddingLeft="@dimen/dim_10"
+            android:textColor="@color/gray"
+            android:paddingRight="@dimen/dim_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="@dimen/dim_6"
+            android:layout_marginLeft="@dimen/dim_6"
+            android:background="@drawable/line"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_50"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textSize="@dimen/tex_size_xlarge"
+            android:hint="Senha"
+            android:id="@+id/etpassword"
+            android:textColor="@color/gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:drawableRight="@drawable/ico_lock"
+            android:background="@color/offwhite"
+            android:paddingLeft="@dimen/dim_10"
+            android:paddingRight="@dimen/dim_10" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/btnlogin"
+        android:background="@drawable/ui_button_blue"
+        android:textColor="@color/offwhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/tex_size_xlarge"
+        android:layout_below="@+id/linearLayout"
+        android:layout_margin="@dimen/dim_10"
+        android:layout_marginBottom="@dimen/dim_10" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_margin="@dimen/dim_10"
+       android:layout_alignParentBottom="true">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar-se"
+        android:textColor="@color/offwhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/tex_size_xlarge"
+        android:id="@+id/btnregister"
+        android:layout_marginRight="@dimen/dim_5"
+        android:background="@drawable/ui_button_blue"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Senha"
+        android:id="@+id/btnforgotpass"
+        android:background="@drawable/ui_button_blue"
+        android:textColor="@color/offwhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/tex_size_xlarge"
+        android:layout_marginLeft="@dimen/dim_5"
+        android:layout_weight="1" />
+   </LinearLayout>
+</RelativeLayout><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/activity_login.xml -->

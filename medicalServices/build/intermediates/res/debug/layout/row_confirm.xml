@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/ico_aceitar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceitar"
+            android:id="@+id/textView5"
+            android:textColor="@color/green"
+            android:textSize="@dimen/tex_size_xsmall"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/ico_recusar"
+            android:layout_above="@+id/textView6"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recusar"
+            android:id="@+id/textView6"
+            android:textColor="@color/red"
+            android:textSize="@dimen/tex_size_xsmall"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignLeft="@+id/imageView6"
+            android:layout_alignStart="@+id/imageView6" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/row_confirm.xml -->

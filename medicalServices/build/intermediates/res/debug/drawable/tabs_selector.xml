@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/ColorPrimary" />
+    <item android:state_selected="true" android:drawable="@color/ColorPrimary" />
+    <item android:state_focused="true" android:drawable="@color/ColorPrimary" />
+    <item android:state_pressed="true" android:drawable="@color/ColorPrimaryDark" />
+
+
+</selector><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/drawable/tabs_selector.xml -->

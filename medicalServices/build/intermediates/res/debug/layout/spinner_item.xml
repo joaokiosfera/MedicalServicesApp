@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spntxt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:padding="5dp"
+    android:textColor="@android:color/white"
+    android:textSize="18dp" />
+<!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/spinner_item.xml -->

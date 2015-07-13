@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+	    android:id="@+id/txtmembername"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="20dp"
+	    android:text="" />
+	
+	<TextView
+	    android:id="@+id/txtadmin"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="17dp"
+	    android:textColor="@color/headercolor"
+	    android:text="" />
+	
+	<TextView
+	    android:id="@+id/txtstatus"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="17dp"
+	    android:text="" />
+
+</LinearLayout><!-- From: file:/C:/Users/Arquimedes/Desktop/MedicalServices/medicalServices/src/main/res/layout/group_members.xml -->

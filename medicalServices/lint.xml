@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="SpUsage">
+        <ignore path="res/layout/activity_blocked_users.xml" />
+    </issue>
+</lint>
