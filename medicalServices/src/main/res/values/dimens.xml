@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="drawer_width">300dp</dimen>
+    <dimen name="ken_burns_header">250dp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+    <dimen name="tex_size_xxsmall">8sp</dimen>
+    <dimen name="tex_size_xsmall">10sp</dimen>
+    <dimen name="tex_size_small">12sp</dimen>
+    <dimen name="tex_size_normal">14sp</dimen>
+    <dimen name="tex_size_large">16sp</dimen>
+    <dimen name="tex_size_xlarge">18sp</dimen>
+    <dimen name="tex_size_xxlarge">20sp</dimen>
+    <dimen name="dim_5">5dp</dimen>
+    <dimen name="dim_6">6dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_30">30dp</dimen>
+    <dimen name="dim_40">40dp</dimen>
+    <dimen name="dim_50">50dp</dimen>
+    <dimen name="dim_60">60dp</dimen>
+    <dimen name="dim_100">100dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="divider_height">1px</dimen>
+    <dimen name="demo_item_title_text_size">@dimen/abc_text_size_subhead_material</dimen>
+    <dimen name="tab_title_text_size">@dimen/abc_text_size_caption_material</dimen>
+    <dimen name="tab_padding_top_bottom">4dp</dimen>
+
+</resources>

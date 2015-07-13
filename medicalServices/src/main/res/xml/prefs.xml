@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+  <PreferenceCategory
+     android:title="Settings" >
+  <CheckBoxPreference
+     android:key="cbgps"
+      android:defaultValue="true"
+       android:title="GPS"/>
+  
+  <CheckBoxPreference
+     android:key="cbalert"
+     android:defaultValue="true"
+     android:title="Group Notification Alert"/>
+  
+  </PreferenceCategory>
+  
+  <PreferenceCategory android:title="Status" >
+        <EditTextPreference
+                android:title="My Status"
+                android:summary="Enter Your Status"
+                android:key="status"/>
+    </PreferenceCategory>
+    
+  
+    <PreferenceCategory
+     android:title="Extra" >
+        
+         <ListPreference
+     android:key="distance"
+     android:entries="@array/distanceoptions"
+     android:entryValues="@array/distancevalue"
+     android:title="People Search Area(Miles)"
+     android:defaultValue="200"
+   	/>
+        
+    <ListPreference
+     android:key="gpsdata"
+     android:entries="@array/gpsoptions"
+     android:entryValues="@array/gpsvalue"
+     android:title="Frequency of sending Location data"
+     android:defaultValue="5"
+   	/>
+    </PreferenceCategory>
+    
+    <Preference android:title="Logout"
+                android:key="button"
+                />
+  
+</PreferenceScreen>

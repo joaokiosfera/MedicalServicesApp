@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Medical Services</string>
+
+    <string name="main_empty_list">Ainda não existe nenhuma mensagem recente.</string>
+    <string name="title_activity_add_group">Adicionar Grupo</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="title_activity_search_friends">SearchFriends</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="gpsoptions">
+        <item>1 minuto</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string-array name="gpsvalue">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="distanceoptions">
+        <item>10 KM</item>
+        <item>25 KM</item>
+        <item>50 KM</item>
+        <item>100 KM</item>
+        <item>200 KM</item>
+        <item>Todos</item>
+    </string-array>
+    <string-array name="distancevalue">
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>10000</item>
+    </string-array>
+
+    <string name="title_activity_group_info">Informação do Grupo</string>
+    <string name="title_activity_update_group">Atualizar Grupo</string>
+    <string name="title_activity_blocked_users">BlockedUsers</string>
+
+    <string name="title_activity_update_profile">UpdateProfile</string>
+
+    <!-- Navigation Drawer icon fontello code -->
+
+    <string name="drawer_icon_home">&#59392;</string>
+    <string name="drawer_icon_search">&#59393;</string>
+    <string name="drawer_icon_myfriends">&#59394;</string>
+    <string name="drawer_icon_blockeduser">&#59396;</string>
+    <string name="drawer_icon_newgroup">&#59395;</string>
+    <string name="drawer_icon_setting">&#59397;</string>
+    <string name="drawer_icon_logout">&#59400;</string>
+    <string name="drawer_icon_share">&#59399;</string>
+
+    <!-- Navigation Drawer icon titles -->
+    <string name="drawer_title_splash_screens">Medical Services</string>
+    <string name="drawer_title_home">Recentes</string>
+    <string name="drawer_title_search">Procurar Pessoas</string>
+    <string name="drawer_title_myfriends">Meus Amigos</string>
+    <string name="drawer_title_blockeduser">Bloquear Usuário</string>
+    <string name="drawer_title_settings">Configurações</string>
+    <string name="drawer_title_newgroup">Novo Grupo</string>
+    <string name="drawer_title_share">Compartilhar</string>
+    <string name="drawer_title_logout">Logout</string>
+
+    <string name="recentes">Recentes</string>
+    <string name="amigos">Amigos</string>
+    <string name="grupos">Grupos</string>
+
+</resources>
